@@ -44,6 +44,7 @@ class _ComponentShowcaseState extends State<ComponentShowcase> {
       _buildButtonsPage(),
       _buildInputsPage(),
       _buildMoleculesPage(),
+      const RegisterPage(),
     ]);
   }
 
@@ -83,6 +84,11 @@ class _ComponentShowcaseState extends State<ComponentShowcase> {
             icon: Icons.view_module_outlined,
             activeIcon: Icons.view_module,
             label: 'Molecules',
+          ),
+          BottomNavItem(
+            icon: Icons.app_registration_outlined,
+            activeIcon: Icons.app_registration,
+            label: 'Register',
           ),
         ],
       ),
