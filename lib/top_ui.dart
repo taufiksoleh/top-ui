@@ -28,3 +28,10 @@ export 'molecules/list_item_mv.dart';
 export 'molecules/app_bar_mv.dart';
 export 'molecules/bottom_nav_mv.dart';
 export 'molecules/tab_bar_mv.dart';
+export 'molecules/social_button_mv.dart';
+
+// Services exports
+export 'services/auth_service.dart';
+
+// Template exports
+export 'templates/register_page.dart';
